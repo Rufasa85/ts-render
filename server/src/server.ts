@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config();
 import express from 'express';
 import allRoutes from "./routes/index.js";
 import logRequest from './middleware/logRequest.js';
